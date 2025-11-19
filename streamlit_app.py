@@ -38,7 +38,7 @@ if not CATBOOST_AVAILABLE:
     )
 
 # ---------------------------- UPLOAD DATASET ----------------------------
-uploaded_file = st.file_uploader("Upload Excel/CSV dataset", type=["xlsx", "xls", "csv"])
+uploaded_file = st.file_uploader("D:\Downloads\Soil data.csv", type=["xlsx", "xls", "csv"])
 
 if not uploaded_file:
     st.info("Please upload a dataset (.csv or .xlsx). If you already did and see an import error, ensure required packages are installed.")
